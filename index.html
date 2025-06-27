@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flower - Fresh Flowers Delivered Daily</title>
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script type="text/javascript" src="/script.jss"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <nav class="nav">
+                <div class="nav-brand">
+                    <i class="fas fa-seedling nav-icon"></i>
+                    <span class="nav-title">flower</span>
+                </div>
+
+                <div class="nav-menu" id="nav-menu">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#shop" class="nav-link">Shop</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </div>
+
+                <div class="nav-actions">
+                    <button class="cart-btn">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count">3</span>
+                    </button>
+                    <button class="mobile-menu-btn" id="mobile-menu-btn">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <div class="floating-flowers">
+                <div class="flower flower-1">🌹</div>
+                <div class="flower flower-2">🌸</div>
+                <div class="flower flower-3">🌺</div>
+                <div class="flower flower-4">🌻</div>
+                <div class="flower flower-5">🌷</div>
+            </div>
+        </div>
+
+        <div class="hero-content">
+            <h1 class="hero-title">
+                Fresh Flowers,
+                <span class="hero-title-accent">Delivered Daily</span>
+            </h1>
+            <p class="hero-description">
+                Discover our exquisite collection of premium flowers, carefully curated and delivered fresh to your
+                doorstep.
+            </p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary">Shop Now</button>
+                <button class="btn btn-outline">View Collection</button>
+            </div>
+        </div>
+
+        <!-- <div class="hero-flower">
+            <div class="rotating-flower">
+                <div class="flower-center"></div>
+                <div class="petal petal-1"></div>
+                <div class="petal petal-2"></div>
+                <div class="petal petal-3"></div>
+                <div class="petal petal-4"></div>
+                <div class="petal petal-5"></div>
+                <div class="petal petal-6"></div>
+                <div class="flower-stem"></div>
+                <div class="flower-leaf leaf-1"></div>
+                <div class="flower-leaf leaf-2"></div>
+            </div>
+        </div> -->
+    </section>
+
+    <!-- Featured Products -->
+    <section id="shop" class="featured-products">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Collection</h2>
+                <p class="section-description">Handpicked flowers from our premium selection, perfect for any occasion
+                </p>
+            </div>
+
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/flower1.jpg" alt="Premium Roses">
+                        <button class="product-favorite">
+                            <i class="far fa-heart"></i>
+                        </button>
+                        <span class="product-badge">Roses</span>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-header">
+                            <h3 class="product-name">Premium Roses</h3>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <span>4.9</span>
+                            </div>
+                        </div>
+                        <div class="product-footer">
+                            <span class="product-price">$45.99</span>
+                            <button class="btn btn-primary btn-sm">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/flower2.jpg" alt="Wedding Bouquet">
+                        <button class="product-favorite">
+                            <i class="far fa-heart"></i>
+                        </button>
+                        <span class="product-badge">Bouquets</span>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-header">
+                            <h3 class="product-name">Wedding Bouquet</h3>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <span>5.0</span>
+                            </div>
+                        </div>
+                        <div class="product-footer">
+                            <span class="product-price">$89.99</span>
+                            <button class="btn btn-primary btn-sm">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/flower3.jpg" alt="Elegant Orchids">
+                        <button class="product-favorite">
+                            <i class="far fa-heart"></i>
+                        </button>
+                        <span class="product-badge">Orchids</span>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-header">
+                            <h3 class="product-name">Elegant Orchids</h3>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <span>4.8</span>
+                            </div>
+                        </div>
+                        <div class="product-footer">
+                            <span class="product-price">$65.99</span>
+                            <button class="btn btn-primary btn-sm">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/flower4.jpg" alt="Spring Mix">
+                        <button class="product-favorite">
+                            <i class="far fa-heart"></i>
+                        </button>
+                        <span class="product-badge">Mixed</span>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-header">
+                            <h3 class="product-name">Spring Mix</h3>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <span>4.7</span>
+                            </div>
+                        </div>
+                        <div class="product-footer">
+                            <span class="product-price">$35.99</span>
+                            <button class="btn btn-primary btn-sm">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/flower5.jpg" alt="Luxury Peonies">
+                        <button class="product-favorite">
+                            <i class="far fa-heart"></i>
+                        </button>
+                        <span class="product-badge">Peonies</span>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-header">
+                            <h3 class="product-name">Luxury Peonies</h3>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <span>4.9</span>
+                            </div>
+                        </div>
+                        <div class="product-footer">
+                            <span class="product-price">$75.99</span>
+                            <button class="btn btn-primary btn-sm">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/flower6.jpg" alt="Sunflower Delight">
+                        <button class="product-favorite">
+                            <i class="far fa-heart"></i>
+                        </button>
+                        <span class="product-badge">Sunflowers</span>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-header">
+                            <h3 class="product-name">Sunflower Delight</h3>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <span>4.6</span>
+                            </div>
+                        </div>
+                        <div class="product-footer">
+                            <span class="product-price">$29.99</span>
+                            <button class="btn btn-primary btn-sm">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">About flower</h2>
+                    <p class="about-description">
+                        For over 20 years, we've been passionate about bringing the beauty of fresh flowers into
+                        people's lives.
+                        Our expert florists carefully select each bloom to ensure you receive only the finest quality
+                        flowers.
+                    </p>
+                    <p class="about-description">
+                        From romantic roses to elegant orchids, we offer a wide variety of flowers for every occasion.
+                        Whether
+                        it's a wedding, anniversary, or just because, we're here to help you express your feelings
+                        through the
+                        language of flowers.
+                    </p>
+
+                    <div class="features-grid">
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-truck"></i>
+                            </div>
+                            <h3 class="feature-title">Fast Delivery</h3>
+                            <p class="feature-description">Same-day delivery available</p>
+                        </div>
+
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <h3 class="feature-title">Quality Guarantee</h3>
+                            <p class="feature-description">100% satisfaction guaranteed</p>
+                        </div>
+
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <h3 class="feature-title">Made with Love</h3>
+                            <p class="feature-description">Handcrafted arrangements</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-image">
+                    <div class="image-card">
+                        <img src="/placeholder.svg?height=400&width=400" alt="Florist at work">
+                    </div>
+                    <div class="experience-badge">
+                        <h4>20+ Years</h4>
+                        <p>of Excellence</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">What Our Customers Say</h2>
+                <p class="section-description">Don't just take our word for it</p>
+            </div>
+
+            <div class="testimonials-container">
+                <div class="testimonial-card active" data-testimonial="0">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <blockquote class="testimonial-content">
+                        "The flowers were absolutely stunning! They arrived fresh and beautifully arranged. Will
+                        definitely order again."
+                    </blockquote>
+                    <div class="testimonial-author">
+                        <img src="/placeholder.svg?height=60&width=60" alt="Sarah Johnson" class="author-avatar">
+                        <div class="author-info">
+                            <h4 class="author-name">Sarah Johnson</h4>
+                            <p class="author-role">Happy Customer</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card" data-testimonial="1">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <blockquote class="testimonial-content">
+                        "flower made our wedding day perfect with their gorgeous floral arrangements. Professional and
+                        reliable service."
+                    </blockquote>
+                    <div class="testimonial-author">
+                        <img src="/placeholder.svg?height=60&width=60" alt="Michael Chen" class="author-avatar">
+                        <div class="author-info">
+                            <h4 class="author-name">Michael Chen</h4>
+                            <p class="author-role">Wedding Client</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card" data-testimonial="2">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <blockquote class="testimonial-content">
+                        "We use flower for all our office events. Their attention to detail and quality is unmatched."
+                    </blockquote>
+                    <div class="testimonial-author">
+                        <img src="/placeholder.svg?height=60&width=60" alt="Emily Davis" class="author-avatar">
+                        <div class="author-info">
+                            <h4 class="author-name">Emily Davis</h4>
+                            <p class="author-role">Corporate Client</p>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="testimonial-nav testimonial-prev">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="testimonial-nav testimonial-next">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+
+            <div class="testimonial-dots">
+                <button class="dot active" data-slide="0"></button>
+                <button class="dot" data-slide="1"></button>
+                <button class="dot" data-slide="2"></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-brand">
+                        <i class="fas fa-seedling footer-icon"></i>
+                        <span class="footer-title">flower</span>
+                    </div>
+                    <p class="footer-description">
+                        Bringing beauty and joy through fresh, premium flowers delivered with care.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h3 class="footer-section-title">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#shop">Shop</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3 class="footer-section-title">Contact Info</h3>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>(555) 123-4567</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>hello@flower.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>123 Flower St, Garden City</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h3 class="footer-section-title">Newsletter</h3>
+                    <p class="newsletter-description">Subscribe to get special offers and updates</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email" class="newsletter-input">
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 flower. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="/script.jss"></script>
+</body>
+
+</html>
